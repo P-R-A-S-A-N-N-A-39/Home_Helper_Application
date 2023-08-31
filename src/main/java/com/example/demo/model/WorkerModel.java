@@ -7,7 +7,7 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name="Worker_Table")
 public class WorkerModel {
-	@Id
+	
 	
 	private int wid;
 	private String wName;
@@ -15,6 +15,7 @@ public class WorkerModel {
 	private long wnumber;
 	private String wexp;
 	private String wgender;
+	@Id
 	private String wskills;
 	private String wclients;
 	private String status;
